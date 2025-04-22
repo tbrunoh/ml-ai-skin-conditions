@@ -1,0 +1,6 @@
+venv
+tests/gan/data/*
+tests/*/models/*
+tests/*/logs/*
+*__pycache__
+*.DS_STORE
