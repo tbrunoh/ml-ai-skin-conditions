@@ -9,12 +9,11 @@ with open("Requirements.txt", "r") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="mlaist",
+    name="mlaiconditions",
     version=version,
     author="Nelson Kigen",
-    author_email="nkigen@melaninluxe.ai",
-    url="https://github.com/melaninluxe/ml-ai-skintone",
-    description="Reusable PyTorch models for projects within Melanin Luxe AI organization",
+    url="https://github.com/tbrunoh/ml-ai-skin-conditions",
+    description="Skin condition models for Inclusive Skin AI (early stage)",
     packages=find_packages(),
     install_requires=requirements,
     python_requires=">=3.7",
